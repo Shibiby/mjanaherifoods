@@ -17,8 +17,7 @@
 ?>
 
 <?php require 'header.php'; ?>
-		<div class="customer">
-		<div class="col-md-4 text-center">
+		<div class="col-lg-6 text-center" id="customer-reg">
 				<h1>CUSTOMER REGISTRATION</h1>
 				<div class="alert alert-success">
 				<?php if(!empty($message)); ?>
@@ -40,7 +39,7 @@
 					       
 									
 					<div class="col-md-12">
-							<input type="submit" class="btn btn-success" value="submit">
+							<input type="submit" class="btn btn-success" value="Registet Customer">
 					</div>
                     <div class="container">
 					<a href="index.php" class="btn btn-success">Home Page</a>
@@ -55,6 +54,5 @@
             </form>
             
 			</div>
-		</div>
 
 <?php require 'footer.php'; ?>

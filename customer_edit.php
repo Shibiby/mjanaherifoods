@@ -23,8 +23,7 @@ if (isset ($_POST['name'])  && isset($_POST['contact']) ) {
 
 
 <?php require 'header.php'; ?>
-		<div class="customer">
-		<div class="col-md-4 text-center">
+		<div class="col-md-4 text-center" id="customer">
 				<h1>CUSTOMER EDIT</h1>
 
 
@@ -59,6 +58,5 @@ if (isset ($_POST['name'])  && isset($_POST['contact']) ) {
             </form>
             
 			</div>
-		</div>
 
 <?php require 'footer.php'; ?>
