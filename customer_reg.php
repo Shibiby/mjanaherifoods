@@ -42,7 +42,7 @@
 							<input type="submit" class="btn btn-success" value="Registet Customer">
 					</div>
                     <div class="container">
-					<a href="index.php" class="btn btn-success">Home Page</a>
+					<a href="index.php" class="btn mfm-btn">Home Page</a>
             </div>
                 </div>
 								
