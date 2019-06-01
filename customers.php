@@ -51,5 +51,7 @@
 
 </div>
 
+<button onclick="myFunction()">Print this page</button>
+
 
 <?php require 'footer.php'; ?>
