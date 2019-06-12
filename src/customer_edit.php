@@ -11,7 +11,7 @@ if (isset ($_POST['name'])  && isset($_POST['contact']) ) {
   $sql = 'UPDATE customers SET firstname=:name, contact=:contact WHERE id=:id';
   $statement = $connection->prepare($sql);
   if ($statement->execute([':name' => $firstname, ':contact' => $contact, ':id' => $id])) {
-    header("Location: /mjanaherifoods/customers.php");
+    header("Location: /mjanaherifoods/src/customers_view.php");
   }
 
 

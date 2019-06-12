@@ -46,7 +46,7 @@
 </div>
 
 <div class="container">
-        <a href="index.php" class="btn btn-success">Home Page</a>
+        <a href="dashboard.php" class="btn btn-success">Home Page</a>
     </div>
 
 </div>

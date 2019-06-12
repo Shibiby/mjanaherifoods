@@ -24,7 +24,7 @@
 					<?php echo $message; ?>
 				</div>
 
-				<form id="customer_reg" method="post" action="customer_reg.php" role="form">
+				<form class="login" id="customer_reg" method="post" action="customer_reg.php" role="form">
 					<div class="form-group">
 						<label for="name">Name *</label>
 						<input id="name" type="text" name="name" class="form-control" placeholder="Please enter Name *" required="required" data-error="Firstname is required.">
@@ -39,10 +39,10 @@
 					       
 									
 					<div class="col-md-12">
-							<input type="submit" class="btn btn-success" value="Registet Customer">
+							<input type="submit" class="btn btn-success" value="Register Customer">
 					</div>
                     <div class="container">
-					<a href="index.php" class="btn mfm-btn">Home Page</a>
+					<a href="customers.php" class="btn mfm-btn">Home Page</a>
             </div>
                 </div>
 								
